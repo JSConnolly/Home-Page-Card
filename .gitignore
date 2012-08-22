@@ -1,0 +1,5 @@
+venv
+*.pyc
+working_files
+HomePageApp/static_files
+
