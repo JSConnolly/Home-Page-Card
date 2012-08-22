@@ -71,7 +71,7 @@ STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
 if socket.gethostname() == 'Ryan-Waltons-MacBook-Pro.local':
     STATIC_URL = 'http://127.0.0.1:8000/HomePageApp/static/'
 else:
-    STATIC_URL = 'http://{insert url root here}.herokuapp.com/HomePageApp/static/'
+    STATIC_URL = 'http://lit-plateau-2834.herokuapp.com/HomePageApp/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
