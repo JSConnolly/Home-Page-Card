@@ -5,7 +5,7 @@ body {
   font-family: Cambria,Georgia,Times,serif;
   font-size: 1em;
   line-height: 120%;
-  background: url('http://static.tumblr.com/uac2k0c/0Vgm96kl9/low_contrast_linen.png') repeat fixed;
+  background: url('../images/low_contrast_linen.png') repeat fixed;
 }
 
 table {
