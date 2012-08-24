@@ -3,5 +3,3 @@
 
 ![alt text](http://static.tumblr.com/uac2k0c/rjTm99vn6/homepage_screenshot.png "Screenshot")
 
-<img border="0" src="![Alt text](http://static.tumblr.com/uac2k0c/rjTm99vn6/homepage_screenshot.png" alt="Screenshot" />
-
