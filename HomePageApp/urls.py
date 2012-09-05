@@ -8,6 +8,7 @@ import settings
 
 urlpatterns = patterns('',
 						url(r'^$', 'HomePageApp.views.home_page', name='home_page'),
+						url(r'^projects/$', 'HomePageApp.views.projects_page', name='projects_page'),
     # Examples:
     # url(r'^$', 'HomePageApp.views.home', name='home'),
     # url(r'^HomePageApp/', include('HomePageApp.foo.urls')),

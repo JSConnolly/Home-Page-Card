@@ -13,3 +13,6 @@ from django.template.loader import get_template
 def home_page(request):
     return render_to_response('home_page.html', )
 
+def projects_page(request):
+    return render_to_response('projects_page.html', )
+

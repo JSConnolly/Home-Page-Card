@@ -1,0 +1,51 @@
+{% load static from staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+	<title>Ryan Walton</title> <!-- http://bit.ly/ryanwalton-->
+	<meta name="author" content="Ryan Walton">
+</head>
+<body>
+	<div class="projectspage">
+		<div id="header">
+			<h1>Projects</h1>
+		</div>
+		<!--Structure	
+				<div id="container">
+			    	<div id="img-element">Image</div>
+			    	<div id="text-element"><p>Text</p></div>
+				</div>
+		-->
+		<div id="container">
+	    	<div id="img-element"><img src="{% static 'images/tapestry_ws.png' %}" alt="Tapestry Image"/></img></div>
+	    	<div id="text-element"><p>A chrome browser extension that visually displays your browser history. Created during a weekend hackathon with Facebook and Heroku. Created by me, @<a target="blank" href="http://twitter.com/jdavid">jdavid</a>, @<a target="blank" href="http://twitter.com/abraham">abraham</a> and @<a target="blank" href="http://twitter.com/Satshabad">Satshabad</a>.</p><br><p id="links"><a target="_blank" href="https://chrome.google.com/webstore/detail/anokhfoobafomacdgnkgekbccniknmia">Chrome Store</a> | <a target="_blank" href="http://twitter.com/tapestried">Twitter</a> | <a target="_blank" href="http://www.facebook.com/tapestried">Facebook</a> | <a target="_blank" href="https://plus.google.com/u/0/109927918315450202251/">Google+</a></p></div>
+		</div>
+		<hr>
+		<div id="container">
+	    	<div id="img-element"><img src="{% static 'images/todo_ws.png' %}" alt="Todo Image"/></img></div>
+	    	<div id="text-element"><p>A chrome extension that manages to-do lists. Instead of using a Google Docs spreadsheet, the application uses javascript to add and move around to-do items based on the days of the week.</p></div>
+		</div>
+		<hr>
+		<div id="container">
+	    	<div id="img-element"><img src="{% static 'images/vetch_ws.png' %}" alt="Vetch Image"/></img></div>
+	    	<div id="text-element"><p>Video sharing site designed to rip your friends' links in an elegantly curated environment. No more losing posts in the news feed. Watch videos when you want to watch them.</p></div>
+		</div>
+		<hr>
+		<div id="container">
+	    	<div id="img-element"><img src="{% static 'images/bamru_ws.png' %}" alt="BAMRU Image"/></img></div>
+	    	<div id="text-element"><p>Created the blog of the Bay Area Mountain Rescue Unit (BAMRU). Led BAMRU's online marketing and analytics.</p><br><p id="links"><a target="_blank" href="http://bamru.blogspot.com/">BAMRU Blog</a> | <a target="_blank" href="http://twitter.com/BAMRUorg">Twitter</a></p></div>
+		</div>
+		<hr>
+		<div id="container">
+	    	<div id="img-element"><iframe width="277" height="208" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Coloma,+CA&amp;aq=&amp;sll=38.85417,-120.85833&amp;sspn=0.083417,0.136299&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Coloma,+El+Dorado,+California&amp;ll=38.799918,-120.890293&amp;spn=0.020067,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Coloma,+CA&amp;aq=&amp;sll=38.85417,-120.85833&amp;sspn=0.083417,0.136299&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Coloma,+El+Dorado,+California&amp;ll=38.799918,-120.890293&amp;spn=0.020067,0.025749&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left"></a></small></div>
+	    	<div id="text-element"><p>Walton Cline Family Farms, LLC. A family farm near the Great Divide and the American River.</p></div>
+		</div>
+		<hr>
+		<div id="container">
+	    	<div id="img-element"><img src="{% static 'images/caf_ws.jpeg' %}" target="_blank" href="http://www.reuters.com/article/2007/03/30/environment-hongkong-pollution-dc-idUSHKG16054820070330" alt="Clean Air Foundation"/></img></div>
+	    	<div id="text-element"><p>The Clean Air Foundation, a Hong Kong based environmental organization, created in tandem with a Constitutional suit against the HK government for failing to curb air pollution. I drafted the suit while working with politicians and political activists to bring awareness to the harmful effects of air pollution.</p><br><p id="links"><a target="_blank" href="http://www.reuters.com/article/2007/03/30/environment-hongkong-pollution-dc-idUSHKG16054820070330">Reuters (Image)</a> | <a target="_blank" href="http://edition.cnn.com/2007/WORLD/asiapcf/06/20/hk.pollution/index.html">CNN</a> | <a target="_blank" href="http://www.thestandard.com.hk/news_detail.asp?pp_cat=11&art_id=41275&sid=12899692&con_type=1">The Standard</a></p></div>
+		</div>
+</body>
+</html>

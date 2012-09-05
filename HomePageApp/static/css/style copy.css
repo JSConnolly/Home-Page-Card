@@ -1,0 +1,215 @@
+
+
+body {
+  margin: 0;
+  font-family: Cambria,Georgia,Times,serif;
+  font-size: 1em;
+  line-height: 120%;
+  background: url('../images/low_contrast_linen.png') repeat fixed;
+}
+
+p {
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 120%;
+}
+
+
+.projects p {
+	margin-top:0px;
+	vertical-align: top;
+}
+
+#links p {
+	margin:2px;
+}
+
+.homepage {
+  background: url('../images/low_contrast_linen.png') repeat fixed;
+}
+
+.projectspage {
+	width:1024px;
+	height:1750px;
+	background: url('../images/lyft_bg-quilt.png') repeat fixed;
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+	top:50px;
+	left:40px;
+	position:absolute;
+}
+
+table {
+	font-family: inherit;
+	border-collapse:separate;
+	border-spacing: 7px;
+}	
+
+a {
+  color: #843030;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 1.6875em;
+  line-height: 40px;
+}
+
+th {
+	text-align:left;
+}
+
+div.home_main {
+	display:block;
+	width:345px;
+	height:385px;
+	background: url('../images/lyft_bg-quilt.png') repeat fixed;
+	padding: 20px 20px 20px 50px;
+	margin: 0 auto;
+	top:50px;
+	left:40px;
+	position:relative;	
+}
+
+#project {
+	width:1024px;
+	height:270px;
+	border: 1px solid;
+	margin: 2px;
+}
+
+#project img {
+	width: 346px;
+	height: 260px;
+	border: 1px solid;
+}
+
+#project_img {
+	position: relative;
+	width: 346px;
+	height: 260px;
+}
+
+
+#project_text {
+	position: relative;
+	width: 346px;
+	height: 260px;
+	left: 375px;
+}
+
+.header {
+	width:1024px;
+	height:160px;
+}
+
+.header h1 {
+	position: absolute;
+	top: 46px;
+	left: 200px;
+	font-family: cursive;
+}
+
+.header p {
+	position: absolute;
+	top: 79px;
+	left: 275px;
+	}
+
+/*Projects Specific CSS*/
+/*
+.tapestry_text {
+	position: absolute;
+	width:600px;
+	top: 200px;
+	left: 355px;
+}
+
+.tapestry_img {
+	position: absolute;
+	width:285px;
+	height:155px;
+	top: 200px;
+	left: 45px;
+}
+
+.todo_text {
+	position: absolute;
+	width:450px;
+	top: 410px;
+	left: 85px;
+}
+
+.todo_img {
+	position: absolute;
+	width:435px;
+	height:202px;
+	top: 390px;
+	left: 540px;
+}
+
+.vetch_text {
+	position: absolute;
+	width:600px;
+	top: 655px;
+	left: 410px;
+}
+
+.vetch_img {
+	position: absolute;
+	width:285px;
+	height:155px;
+	top: 650px;
+	left: 90px;
+}
+
+.wcff_text {
+	position: absolute;
+	width:400px;
+	top: 990px;
+	left: 240px;
+}
+
+.wcff_img {
+	position: absolute;
+	width:302px;
+	height:302px;
+	top: 990px;
+	left: 640px;
+}
+
+.caf_text {
+	position: absolute;
+	width:400px;
+	top: 1345px;
+	left: 535px;
+}
+
+.caf_img {
+	position: absolute;
+	width:285px;
+	height:155px;
+	top: 1345px;
+	left: 70px;
+}
+*/
+
+
