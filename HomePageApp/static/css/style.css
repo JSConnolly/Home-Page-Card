@@ -39,6 +39,17 @@ p {
 	position:absolute;
 }
 
+.learningpage {
+	width:1024px;
+	height:1050px;
+	background: url('../images/lyft_bg-quilt.png') repeat fixed;
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+	top:50px;
+	left:40px;
+	position:absolute;
+}
+
 table {
 	font-family: inherit;
 	border-collapse:separate;
@@ -73,6 +84,7 @@ h1 {
 h2 {
   font-size: 1.6875em;
   line-height: 40px;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -1px;
 }
 
 th {
@@ -94,16 +106,30 @@ div.home_main {
 	position:relative;	
 }
 
-#header {
+#projectsheader {
 	width:1024px;
 	height:160px;
 }
 
-#header h1 {
+#learningheader {
+	width:1024px;
+	height:100px;
+}
+
+#projectsheader h1 {
 	text-align:center;
 	padding-top:45px;
-	font-size:6em;
+	font-size:5em;
 	letter-spacing:7px;
+	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+	
+}
+
+#learningheader h2 {
+	text-align:center;
+	padding-top:25px;
+	font-size: 2em;
+	letter-spacing:4px;
 	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
 	
 }

@@ -16,3 +16,6 @@ def home_page(request):
 def projects_page(request):
     return render_to_response('projects_page.html', )
 
+def learning_page(request):
+    return render_to_response('learning_page.html', )
+

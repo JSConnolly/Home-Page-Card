@@ -1,0 +1,38 @@
+{% load static from staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+	<title>Ryan Walton</title> <!-- http://bit.ly/ryanwalton-->
+	<meta name="author" content="Ryan Walton">
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-34889211-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+	<div class="learningpage">
+		<div id="learningheader">
+			<h2>Learning Resources</h2>
+		</div>
+		<!--Structure	
+				<div id="container">
+			    	<div id="img-element">Image</div>
+			    	<div id="text-element"><p>Text</p></div>
+				</div>
+		-->
+		<div id="container">
+			<iframe width='1000' height='850' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0At4E-AAfxCmrdEE4RlVncFBVaUc0OFlLbzhJU01MaEE&single=true&gid=0&output=html&widget=true'></iframe>
+		</div>
+</body>
+</html>
